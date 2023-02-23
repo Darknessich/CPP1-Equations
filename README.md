@@ -14,3 +14,6 @@
 4. Behavior with two command line argument
   - input &rarr; `<arg1>`
   - output &rarr; `<arg2>`
+
+**The input data is a set of three coefficients of the quadratic equation: a b c**<br>
+**The output is the solution to the equation $ax^2 + bx + c = 0$**
