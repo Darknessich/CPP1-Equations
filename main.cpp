@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 	if (input.is_open()) 
 	  Interface(input);
 	else 
-	  std::cout << "file" << argv[1] << "could not be opened" << std::endl;
+	  std::cout << "file \"" << argv[1] << "\" could not be opened" << std::endl;
 	break;
   }
   case 3:
@@ -27,9 +27,9 @@ int main(int argc, char* argv[]) {
 	}
 	else {
 	  if (!input.is_open())
-		std::cout << "file" << argv[1] << "could not be opened" << std::endl;
+		std::cout << "file \"" << argv[1] << "\" could not be opened" << std::endl;
 	  if (!output.is_open())
-		std::cout << "file" << argv[2] << "could not be opened" << std::endl;
+		std::cout << "file \"" << argv[2] << "\" could not be opened" << std::endl;
 	}
 	break;
   }
